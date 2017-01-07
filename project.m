@@ -35,7 +35,7 @@ while hasFrame(vr)
     end
     set(gca,'dataAspectRatio',[1 1 1])
 %     drawnow
-    fig.KeyPressFcn=@checkKey;
+fig.KeyPressFcn=@checkKey;
     if key=='c'
         disp('Tracking cancelled')
         break
