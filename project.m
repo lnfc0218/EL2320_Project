@@ -6,7 +6,6 @@ global key
 key='';
 mkdir('image')
 drawParticlesFlag=1;
-% 此处定义各个矩阵
 % vr = VideoReader('Person.wmv');
 vr = VideoReader('chase.mp4');
 state_init=[];
