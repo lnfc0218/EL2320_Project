@@ -1,4 +1,4 @@
-%% Initialization
+% Initialization
 clear; close all;
 fig=figure;
 axis('image')
@@ -22,7 +22,7 @@ roi=[];
 disp('-p: pause current frame and select a rectangular ROI ')
 disp('-c: cancel tracking ')
 disp('-d: draw particles ')
-%% Object Tracking by Particle Filter
+% Object Tracking by Particle Filter
 ii=1;
 while hasFrame(vr)
     frame=readFrame(vr);
