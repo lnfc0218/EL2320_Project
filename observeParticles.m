@@ -1,7 +1,7 @@
 % function L=observeParticles(frame,roi,STATE)
 function [L,STATE]=observeParticles(frame,targetSize,targetHist,STATE,drawParticlesFlag)
 % OBSERVE
-% kernel(); % 但好像没有也并不碍事
+% kernel(); 
 % [h,w,~]=size(roi);
 h=targetSize(1);
 w=targetSize(2);
